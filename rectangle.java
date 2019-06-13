@@ -1,4 +1,4 @@
-;
+import java.io.*;
 /**
  * Décrivez votre classe rectangle ici.
  *
@@ -86,4 +86,8 @@ public class rectangle
                 
         //<rect x="200" y="100" width="60" height="30" fill="red" stroke="blue" stroke-width="3" />
     }
+    
+   
+    
+    
 }
