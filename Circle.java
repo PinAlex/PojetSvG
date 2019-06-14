@@ -50,4 +50,16 @@ public class Circle
         
     }
     
+    public String toXML()
+    {
+        return "<circle cx=\""
+        +(new Double (this.x)).toString()
+        +"\" cy=\""
+        +(new Double (this.y)).toString()
+        +"\" r=\""
+        +(new Double (this.rayon)).toString()
+        +"\" />";
+                
+        //<circle cx="200" cy="240" r="30" style="fill:thistle;"/>
+    }
 }
